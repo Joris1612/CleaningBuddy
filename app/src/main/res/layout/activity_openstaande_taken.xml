@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat"
+    android:background="@drawable/background_app"
+    tools:context=".Activities.OpenstaandeTakenActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="322dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cleaning_buddy" />
+
+    <TextView
+        android:id="@+id/openstaandeTaken_titel_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:text="@string/openstaandeTaken_titel_tv_text"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/openstaandeTaken_lijst_rv_id"
+        android:layout_width="413dp"
+        android:layout_height="544dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914" />
+</androidx.constraintlayout.widget.ConstraintLayout>

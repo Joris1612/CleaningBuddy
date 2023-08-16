@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Titel    -->
+    <string name="app_name">Cleaning Buddy groep 2</string>
+
+    <!--Nieuwe kamer    -->
+    <string name="nieuweKamer_subTitel_tv_text">New room</string>
+    <string name="nieuweKamer_naam_tv_text">Name:</string>
+    <string name="nieuweKamer_naam_et_hint">Room name</string>
+    <string name="nieuweKamer_annuleren_btn_text">Cancel</string>
+    <string name="nieuweKamer_opslaan_btn_text">Save</string>
+    <string name="nieuweKamer_geenKamerAangemaakt_toast_text">No room created!</string>
+    <string name="nieuweKamer_voerEenJuisteWaardeIn_toast_text">Fill in a correct value!</string>
+    <string name="nieuweKamer_nieuweKamerAangemaakt_toast_text">New room created!</string>
+
+    <!--Nieuwe taak   -->
+    <string name="nieuweTaak_subtTitel_tv_text">New task</string>
+    <string name="nieuweTaak_naam_tv_text">Name:</string>
+    <string name="nieuweTaak_toewijzenAan_tv_text">Assign to:</string>
+    <string name="nieuweTaak_kamer_tv_text">Room:</string>
+    <string name="nieuweTaak_omschrijving_tv_text">Description:</string>
+    <string name="nieuweTaak_nieuweTaakAanmaken_toast_text">New task</string>
+    <string name="nieuweTaak_geenTaakAangemaakt_toast_text">No task created!</string>
+    <string name="nieuweTaak_alleVeldenZijnVerplicht_toast_text">All fields are mandatory!</string>
+    <string name="nieuweTaak_dagen_tv_text">Day(s)</string>
+    <string name="nieuweTaak_naam_et_hint">Name</string>
+    <string name="nieuweTaak_omschrijving_etml_hint">Description</string>
+
+    <!--Aanpassen taak   -->
+    <string name="aanpassenTaak_subtTitel_tv_text">Adjust task</string>
+    <string name="aanpassenTaak_naam_tv_text">Name:</string>
+    <string name="aanpassenTaak_toewijzenAan_tv_text">Assign to:</string>
+    <string name="aanpassenTaak_kamer_tv_text">Room:</string>
+    <string name="aanpassenTaak_omschrijving_tv_text">Description:</string>
+    <string name="aanpassenTaak_geselecteerdeTaakAanpassen_tv_text">Update task</string>
+    <string name="aanpassenTaak_updateGeannuleerd_toast_text">Task not updated!</string>
+    <string name="aanpassenTaak_opslaan_btn_id">Save</string>
+    <string name="aanpassenTaak_annuleren_btn_id">Cancel</string>
+    <string name="aanpassenTaak_dagen_tv_text">Day(s)</string>
+    <string name="alleTaken_updateGelukt_toast_text">Task successfully updated!</string>
+
+    <!--Alle taken textview    -->
+    <string name="alleTaken_nieuw_btn_text">New</string>                      <!-- dubbel-->
+    <string name="alleTaken_nieuweTaakAangemaakt_toast_text">Created new task!</string>
+    <string name="alleTaken_titel_tv_text">All tasks</string>
+
+    <!--Openstaande taken scherm titel -->
+    <string name="openstaandeTaken_titel_tv_text">Open tasks</string>
+    <string name="takenPerKamer_titel_tv_text">All tasks per room</string>
+    <string name="openstaandeTaken_afvinken_btn_text">Check off</string>
+    <string name="openstaandeTaken_meerInformatie_btn_text">More information</string>
+    <string name="openstaandeTaken_afgevink_toast_text">Task completed</string>
+
+    <!-- Taken per kamer scherm -->
+    <string name="takenPerKamer_verwijderen_btn_text">Delete</string>
+    <string name="takenPerKamer_verwijderen_toast_text">Task deleted</string>
+
+    <!-- Alle kamers scherm -->
+    <string name="alleKamers_verwijderen_toast_text">Room deleted</string>
+
+    <!--Alle taken scherm -->
+    <string name="alleKamers_titel_tv_text">All rooms</string>
+    <string name="alleKamer_alleTaken_btn_text">All tasks</string>
+    <string name="alleKamer_aanpassen_btn_text">Adjust</string>
+
+    <!--Inlog Scherm -->
+    <string name="login_login">Login</string>
+    <string name="login_registreren">Register</string>
+    <string name="login_gebruikersnaam">Username</string>
+    <string name="login_wachtwoord">Password</string>
+    <string name="login_foutmelding_toast_text">Wrong information, try again</string>
+    <string name="login_succesvol_toast_text">Login successful!</string>
+    <string name="login_succesvolIngelogd_toast_text">Login successful!</string>
+
+    <!--Registreren -->
+    <string name="registreren_gebruikersnaam">Username</string>
+    <string name="registreren_wachtwoord">Password</string>
+    <string name="registreren_herhaalwachtwoord">Repeat password</string>
+    <string name="registreren_accountAanmaken">Create account</string>
+
+    <!--Menu -->
+    <string name="alle_taken">All tasks</string>
+    <string name="alle_kamers">All rooms</string>
+    <string name="nieuwe_taken">New task</string>
+    <string name="nieuwe_kamers">New room</string>
+    <string name="openstaande_taken">Open tasks</string>
+    <string name="settings">Settings</string>
+    <string name="Uitloggen">Uitloggen</string>
+
+    <!--Voltooide taken scherm -->
+    <string name="voltooideTaken_afgevinkt_tv_id">Checked by:</string>
+    <string name="voltooideTaken_datum_tv_id">Date:</string>
+    <string name="voltooideTaken_toggle_btn_text">Sort by date</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--Algemeen setError strings    -->
+    <string name="setError_leegVeld_requestFocus_text">Field cannot be empty!</string>
+    <string name="setError_specialeTekens_requestFocus_text">Can only contain letters!</string>
+    <string name="setError_gebruikersnaam_Zelfde_request_text">Username already in use</string>
+    <string name="setError_herhaal_wachtwoord_request_text">Password does not match</string>
+    <string name="setError_speciale_characters_leeg_text">No special characters and numbers. Fill in all fields!</string>
+    <string name="setError_lege_velden_request_text">Fill in all fields</string>
+    <string name="setError_verkeerde_gegevens_request_text">Wrong credentials.</string>
+
+</resources>

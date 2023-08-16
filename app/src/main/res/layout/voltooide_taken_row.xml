@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/voltooideTaken_row_gebruiker_tf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#E3E0E0"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/voltooideTaken_row_datum_tf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#C6C6C6"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
+</LinearLayout>

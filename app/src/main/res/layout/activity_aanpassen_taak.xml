@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@style/Theme.AppCompat"
+    android:background="@drawable/background_app"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AanpassenTaakActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="322dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cleaning_buddy" />
+
+    <TextView
+        android:id="@+id/aanpassenTaak_subtTitel_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="150dp"
+        android:text="@string/aanpassenTaak_subtTitel_tv_text"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <Button
+        android:id="@+id/aanpassenTaak_opslaan_btn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:onClick="taakUpdaten"
+        android:text="@string/aanpassenTaak_opslaan_btn_id"
+        app:layout_constraintBottom_toBottomOf="@+id/nieuweTaak_annuleren_btn_id"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/aanpassenTaak_naam_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/aanpassenTaak_naam_tv_text"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aanpassenTaak_subtTitel_tv_id" />
+
+    <EditText
+        android:id="@+id/aanpassenTaak_naam_et_id"
+        android:maxLength="50"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/aanpassenTaak_naam_tv_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aanpassenTaak_subtTitel_tv_id"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TextSizeCheck"
+        android:autofillHints="" />
+
+    <NumberPicker
+        android:id="@+id/aanpassenTaak_interval_picker_id"
+        android:layout_width="59dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="260dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toEndOf="@+id/aanpassenTaak_interval_tv_id"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aanpassenTaak_toewijzenAan_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/aanpassenTaak_toewijzenAan_tv_text"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aanpassenTaak_interval_tv_id" />
+
+    <Spinner
+        android:id="@+id/aanpassenTaak_kamer_spnr_id"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/aanpassenTaak_kamer_tv_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aanpassenTaak_toewijzenAan_spnr_id" />
+
+    <TextView
+        android:id="@+id/aanpassenTaak_kamer_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/aanpassenTaak_kamer_tv_text"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aanpassenTaak_toewijzenAan_tv_id" />
+
+    <TextView
+        android:id="@+id/aanpassenTaak_interval_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/aanpassenTaak_interval_tv_text"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/aanpassenTaak_toewijzenAan_tv_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aanpassenTaak_naam_tv_id" />
+
+    <Spinner
+        android:id="@+id/aanpassenTaak_toewijzenAan_spnr_id"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/aanpassenTaak_toewijzenAan_tv_id"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/aanpassenTaak_omschrijving_etml_id"
+        android:maxLength="100"
+        android:layout_width="183dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:scrollIndicators="top|bottom"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A1887F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aanpassenTaak_kamer_spnr_id" />
+
+    <TextView
+        android:id="@+id/aanpassenTaak_omschrijving_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/aanpassenTaak_omschrijving_tv_text"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aanpassenTaak_kamer_tv_id" />
+
+    <Button
+        android:id="@+id/nieuweTaak_annuleren_btn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="finishActiviteit"
+        android:text="@string/aanpassenTaak_annuleren_btn_id"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/aanpassenTaak_dagen_tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="42dp"
+        android:text="@string/aanpassenTaak_dagen_tv_text"
+        app:layout_constraintBottom_toTopOf="@+id/aanpassenTaak_toewijzenAan_spnr_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/aanpassenTaak_interval_picker_id"
+        app:layout_constraintTop_toBottomOf="@+id/aanpassenTaak_naam_et_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

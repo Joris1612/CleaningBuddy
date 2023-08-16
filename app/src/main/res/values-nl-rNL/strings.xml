@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Titel    -->
+    <string name="app_name">Cleaning Buddy groep 2</string>
+
+    <!--Nieuwe kamer    -->
+    <string name="nieuweKamer_subTitel_tv_text">Nieuwe kamer</string>
+    <string name="nieuweKamer_naam_tv_text">Naam:</string>
+    <string name="nieuweKamer_naam_et_hint">Naam kamer</string>
+    <string name="nieuweKamer_annuleren_btn_text">Annuleren</string>
+    <string name="nieuweKamer_opslaan_btn_text">Opslaan</string>
+    <string name="nieuweKamer_geenKamerAangemaakt_toast_text">Geen kamer aangemaakt!</string>
+    <string name="nieuweKamer_voerEenJuisteWaardeIn_toast_text">Voer een juiste waarde in!</string>
+    <string name="nieuweKamer_nieuweKamerAangemaakt_toast_text">Nieuwe kamer aangemaakt!</string>
+
+
+    <!--Nieuwe taak textview   -->
+    <string name="nieuweTaak_subtTitel_tv_text">Nieuwe Taak</string>
+    <string name="nieuweTaak_naam_tv_text">Naam:</string>
+    <string name="nieuweTaak_toewijzenAan_tv_text">Toewijzen aan:</string>
+    <string name="nieuweTaak_kamer_tv_text">Kamer:</string>
+    <string name="nieuweTaak_omschrijving_tv_text">Omschrijving:</string>
+    <string name="nieuweTaak_nieuweTaakAanmaken_toast_text">Nieuwe taak</string>
+    <string name="nieuweTaak_geenTaakAangemaakt_toast_text">Geen taak aangemaakt!</string>
+    <string name="nieuweTaak_alleVeldenZijnVerplicht_toast_text">Alle velden zijn verplicht!</string>
+    <string name="nieuweTaak_dagen_tv_text">Dag(en)</string>
+    <string name="nieuweTaak_naam_et_hint">Naam</string>
+    <string name="nieuweTaak_omschrijving_etml_hint">Omschrijving</string>
+
+    <!--Aanpassen taak textview   -->
+    <string name="aanpassenTaak_subtTitel_tv_text">Aanpassen Taak</string>
+    <string name="aanpassenTaak_naam_tv_text">Naam:</string>
+    <string name="aanpassenTaak_toewijzenAan_tv_text">Toewijzen aan:</string>
+    <string name="aanpassenTaak_kamer_tv_text">Kamer:</string>
+    <string name="aanpassenTaak_omschrijving_tv_text">Omschrijving:</string>
+    <string name="aanpassenTaak_geselecteerdeTaakAanpassen_tv_text">Aanpassen taak</string>
+    <string name="aanpassenTaak_updateGeannuleerd_toast_text">Taak niet aangepast</string>
+    <string name="aanpassenTaak_opslaan_btn_id">Opslaan</string>
+    <string name="aanpassenTaak_annuleren_btn_id">Annuleren</string>
+    <string name="aanpassenTaak_dagen_tv_text">Dag(en)</string>
+    <string name="alleTaken_updateGelukt_toast_text">Taak succesvol geüpdatet!</string>
+
+    <!--Alle taken textview    -->
+    <string name="alleTaken_nieuw_btn_text">Nieuw</string>
+    <string name="alleTaken_nieuweTaakAangemaakt_toast_text">Nieuwe taak aangemaakt!</string>
+    <string name="alleTaken_titel_tv_text">Alle taken</string>
+
+    <!--Openstaande taken scherm titel -->
+    <string name="openstaandeTaken_titel_tv_text">Openstaande taken</string>
+    <string name="takenPerKamer_titel_tv_text">Alle taken per kamer</string>
+    <string name="openstaandeTaken_afvinken_btn_text">Afvinken</string>
+    <string name="openstaandeTaken_meerInformatie_btn_text">Meer informatie</string>
+    <string name="openstaandeTaken_afgevink_toast_text">Taak voltooid</string>
+
+    <!-- Taken per kamer scherm -->
+    <string name="takenPerKamer_verwijderen_btn_text">Verwijderen</string>
+    <string name="takenPerKamer_verwijderen_toast_text">Taak verwijdert</string>
+
+    <!-- Alle kamers scherm -->
+    <string name="alleKamers_verwijderen_toast_text">Kamer verwijdert</string>
+
+    <!--Alle taken scherm -->
+    <string name="alleKamers_titel_tv_text">Alle kamers</string>
+    <string name="alleKamer_alleTaken_btn_text">Alle taken</string>
+    <string name="alleKamer_aanpassen_btn_text">Aanpassen</string>
+
+    <!--Inlog Scherm -->
+    <string name="login_login">Inloggen</string>
+    <string name="login_registreren">Registreren</string>
+    <string name="login_gebruikersnaam">Gebruikersnaam</string>
+    <string name="login_wachtwoord">Wachtwoord</string>
+    <string name="login_foutmelding_toast_text">Verkeerde gegevens, probeer opnieuw</string>
+    <string name="login_succesvol_toast_text">Succesvol ingelogd!</string>
+    <string name="login_succesvolIngelogd_toast_text">Succesvol ingelogd!</string>
+
+    <!--Registreren -->
+    <string name="registreren_gebruikersnaam">Gebruikersnaam</string>
+    <string name="registreren_wachtwoord">Wachtwoord</string>
+    <string name="registreren_herhaalwachtwoord">Herhaal Wachtwoord</string>
+    <string name="registreren_accountAanmaken">Account Aanmaken</string>
+
+    <!--Menu -->
+    <string name="alle_taken">Alle Taken</string>
+    <string name="alle_kamers">Alle Kamers</string>
+    <string name="nieuwe_taken">Nieuwe Taak</string>
+    <string name="nieuwe_kamers">Nieuwe Kamer</string>
+    <string name="openstaande_taken">Openstaande Taken</string>
+    <string name="settings">Instellingen</string>
+    <string name="Uitloggen">Uitloggen</string>
+
+    <!--Voltooide taken scherm -->
+    <string name="voltooideTaken_afgevinkt_tv_id">Afgevinkt door:</string>
+    <string name="voltooideTaken_datum_tv_id">Datum:</string>
+    <string name="voltooideTaken_toggle_btn_text">Sorteren op datum</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--Algemeen setError strings    -->
+    <string name="setError_leegVeld_requestFocus_text">Mag niet leeg zijn!</string>
+    <string name="setError_specialeTekens_requestFocus_text">Mag alleen letters bevatten!</string>
+    <string name="setError_gebruikersnaam_Zelfde_request_text">Gebruikersnaam al in gebruik</string>
+    <string name="setError_herhaal_wachtwoord_request_text">Wachtwoord komt niet overeen</string>
+    <string name="setError_speciale_characters_leeg_text">Speciale characters en cijfers niet toegestaan. Vul alle velden in!</string>
+    <string name="setError_lege_velden_request_text">Vul alle velden in</string>
+    <string name="setError_verkeerde_gegevens_request_text">Gegevens zijn onjuist.</string>
+
+</resources>

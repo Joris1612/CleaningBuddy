@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+
+    <!-- taak titel text veld -->
+    <TextView
+        android:id="@+id/openstaandeTakenRow_taak_tf_id"
+        android:layout_width="57dp"
+        android:layout_height="53dp"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <!-- Toegewezen persoon text veld -->
+    <TextView
+        android:id="@+id/openstaandeTakenRow_persoon_tf_id"
+        android:layout_width="57dp"
+        android:layout_height="53dp"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <!-- Kamer text veld -->
+    <TextView
+        android:id="@+id/openstaandeTakenRow_kamer_tf_id"
+        android:layout_width="57dp"
+        android:layout_height="53dp"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <!-- Afvinken knop -->
+    <ImageView
+        android:id="@+id/openstaandeTakenRow_afvinken_btn_id"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/check_icon" />
+
+
+    <!-- Meer informatie knop -->
+    <ImageView
+        android:id="@+id/openstaandeTakenRow_meerInfo_btn_id"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/icon_clipboard" />
+</LinearLayout>

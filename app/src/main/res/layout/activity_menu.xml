@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app"
+    android:theme="@style/Theme.AppCompat"
+    tools:context=".Activities.MenuActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-43dp">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="322dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cleaning_buddy" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="72dp"
+        android:text="@string/alle_taken"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/alle_kamers"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/nieuwe_kamers"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="156dp"
+        android:onClick="goToOpenstaandeTaken"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/openstaande_taken" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="68dp"
+        android:onClick="goToNieuweKamer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/nieuwe_kamer" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="60dp"
+        android:onClick="goToNieuweTaak"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/nieuwe_taak" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="goToAlleTaken"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alle_taken" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="goToAlleKamers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/alle_kamers" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/openstaande_taken"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/nieuwe_taken"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="logoutToLogin"
+        android:text="@string/Uitloggen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
